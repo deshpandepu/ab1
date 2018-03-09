@@ -109,6 +109,12 @@
     function myFunction(){document.getElementById("myDropdown").classList.toggle("show")}window.onclick=function(t){if(!t.target.matches(".dropbtn")){var n,o=document.getElementsByClassName("dropdown-content");for(n=0;n<o.length;n++){var s=o[n];s.classList.contains("show")&&s.classList.remove("show")}}};
 </script>
 <style>
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 70%;
+        margin: auto;
+    }
     @media(max-width:768px) {
 
 
@@ -121,6 +127,8 @@
         {
             display:none;
         }
+
+
         .maintext
         {
             font-size: 20px;
